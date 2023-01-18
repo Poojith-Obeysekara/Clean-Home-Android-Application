@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F6EF"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView2"
+                android:layout_width="410dp"
+                android:layout_height="254dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/welcomeanimation" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/cyan_700"
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button6"
+                android:layout_width="195dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cyan_200"
+                android:text="House Information"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button7"
+                android:layout_width="195dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cyan_200"
+                android:text="Create Post"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button8"
+                android:layout_width="195dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cyan_200"
+                android:text="Feedbacks"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button10"
+                android:layout_width="192dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cyan_200"
+                android:text="View Posts"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button11"
+                android:layout_width="195dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cyan_200"
+                android:text="Feedbacks"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button9"
+                android:layout_width="117dp"
+                android:layout_height="57dp"
+                android:backgroundTint="@color/cyan_200"
+                android:text="Sign Out"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cleanhome">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CleanHome"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.cleanhome.ViewFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.ProvideFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.HousePostDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.cleanhome.ViewUserPostActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.HousePostActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.ViewHouseInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.HouseInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.RetrievePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cleanhome.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDw2e-jHlvQzQ7b9c0L0Gd2T4jROhU_8OI" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>
+
+

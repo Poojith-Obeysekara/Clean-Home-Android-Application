@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Clean Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="questions">
+        <item>What is your favourite color?</item>
+        <item>Who is your favourite actor?</item>
+        <item>What is your favourite country?</item>
+    </string-array>
+    <string-array name="floors">
+        <item>Laminate Flooring</item>
+        <item>Tile Flooring</item>
+        <item>Vinyl Flooring</item>
+        <item>Hardwood</item>
+    </string-array>
+</resources>
